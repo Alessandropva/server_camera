@@ -1,0 +1,14 @@
+{
+  "name": "server_front",
+  "version": "1.0.0",
+  "description": "server_test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alessandro moreira de oliveira",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
