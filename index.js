@@ -22,8 +22,8 @@ app.use(Express.static('./build'));
 app.use('/person', personRouter);
 // app.use('/', routerFront);
 
-DB_USER = process.env.DB_USER || "Alessandro";
-DB_PASSWORD = encodeURIComponent(process.env.DB_PASSWORD) || "dida1410";
+DB_USER = process.env.DB_USER;
+DB_PASSWORD = encodeURIComponent(process.env.DB_PASSWORD);
 
 mongoose.set('strictQuery', true);
 mongoose.connect(`mongodb+srv://${DB_USER}:${DB_PASSWORD}@cameracluster.y9rea97.mongodb.net/controlador?retryWrites=true&w=majority`)
